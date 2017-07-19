@@ -1,0 +1,16 @@
+﻿@charset "UTF-8";
+
+@media (min-width: 901px) {
+#adminmenuback, #adminmenuwrap, #adminmenu, #adminmenu .wp-submenu, #adminmenu .wp-submenu-wrap, .folded #adminmenu .wp-has-current-submenu .wp-submenu{
+	width:155px;
+}
+div#wpcontent, div#footer{
+	margin-left:175px;
+}
+#adminmenu li .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu{
+	left: 156px;
+}
+div.wp-menu-arrow{
+	right: 145px;
+}
+}

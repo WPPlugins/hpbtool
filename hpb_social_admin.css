@@ -1,0 +1,226 @@
+﻿@charset "UTF-8";
+
+a {
+	text-decoration:none;
+}
+
+.hpb_content_title {
+	font-size: 15px;
+	border: 1px solid #dfdfdf;
+	padding: 8px 10px 8px 10px;
+	background-color:#f2f2f2;
+	margin-bottom:0px;
+}
+
+.hpb_caption {
+	font-size: 1em;
+	margin-top: 12px;
+}
+
+.postbox h3 {
+	margin:0px;
+}
+
+.hpb_content {
+	border: 1px solid #dfdfdf;
+	border-top: none;
+	padding: 10px 10px 10px 10px;
+}
+
+.buttonoption {
+	border-top: 1px solid #dddddd;
+	width: 100%;
+	padding-top:10px;
+}
+
+div.socialType {
+	display:block;
+	padding: 7px 10px 7px 10px;
+	border:1px solid #dddddd;
+}
+
+ul.buttonTypes li {
+	cursor: move;
+}
+
+.buttonoption td {
+	padding-right:5px;
+}
+
+#trashbox {
+	float:left;
+	margin:10px;
+	border:dashed 4px #dddddd;
+	display:block;
+	width:100px;
+	height:100px;
+	background:url("image/social_button/socialbutton_trash.png");
+}
+
+ul.buttonTypes {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+ul.buttonTypes li {
+	float:left;
+	list-style: none;
+	padding:4px;
+}
+
+#facebooklike {
+	min-width:450px;
+	min-height:180px;
+}
+
+div.buttonoption {
+	display:inline-block;
+}
+
+div.buttonoption input {
+	display:inline-block;
+	width: 160px;
+}
+
+#googleplus {
+	min-width:220px;
+	min-height:180px;
+}
+
+#tweet {
+	min-width:300px;
+	min-height:180px;
+}
+
+#mixicheck {
+	min-width:270px;
+	min-height:180px;
+}
+
+#evernoteclip {
+	min-width:150px;
+	min-height:180px;
+}
+
+#hatenabookmark {
+	min-width:200px;
+	min-height:180px;
+}
+
+#socialbuttonlist {
+	float: left;
+	list-style: none;
+	box-sizing: border-box;
+	padding: 15px 35px 15px 35px;
+	border:dashed 4px #dddddd;
+	background-color:#ffffff;
+	min-height:70px;
+	min-width:820px;
+}
+
+#socialbuttonlist li {
+	margin-right:5px;
+	cursor: move;
+}
+
+.guidance_drop {
+	background: url("image/social_button/guidance_drop.png");
+}
+
+#socialbuttonlist li {
+	float:left;
+}
+
+#socialbuttonlist:after, ul.buttonTypes:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+
+#socialbuttonlist, ul.buttonTypes {
+	overflow:hidden;
+}
+
+/* for IE-mac \*/
+* html ul#socialbuttonlist, html ul.buttonTypes {
+	height:1%;
+	overflow:visible;
+}
+/* End for IE-mac */
+.clearfloat {
+	clear: both;
+}
+
+.ui-tabs-selected {
+	border-color: #DFDFDF !important;
+	border-style: solid solid none !important;
+	border-width: 1px 1px none !important;
+	border-bottom: 1px solid #ffffff !important;
+	background-color:#ffffff;
+}
+
+.ui-tabs-panel {
+	background-color:#ffffff;
+}
+
+.ui-tabs-selected a {
+	color:#000000 !important;
+}
+
+.over {
+	position: relative; top:80px; left:0px;
+	padding: 6px;
+	background-color: #222222;
+	color: white;
+	display:none;
+}
+
+#save_social_option {
+	margin-top:20px;
+}
+
+/* insert pos setting */
+
+#hpb_insert_pos_settings img {
+	vertical-align: middle;
+	margin: 0px 7px 0px 7px;
+}
+
+label {
+	margin-right: 10px;
+}
+
+#hpb_social_tabs ul.category-tabs {
+	margin-top: 12px;
+}
+
+.dialog_add_social_button_confirm .ui-dialog-content {
+	position: static;
+	padding: 0;
+}
+
+.hpb_social_button {
+	margin: 15px;
+}
+
+@media (max-width: 768px) {
+	#socialbuttonlist {
+		min-width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	div.socialType {
+		box-sizing: border-box;
+	}
+	#facebooklike, #googleplus, #tweet, #mixicheck, #evernoteclip, #hatenabookmark {
+		min-width: 100%;
+	}
+	div.buttonoption input {
+		width: 100%;
+	}
+}
+

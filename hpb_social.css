@@ -1,0 +1,22 @@
+﻿@charset "UTF-8";
+
+.hpb_social div {
+	padding: 0px;
+	margin: 5px 5px 5px 5px;
+	float: left;
+}
+
+.hpb_social:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* for IE-mac \*/
+* html .hpb_social{
+  height:1%;
+  overflow:visible;
+}
+/* End for IE-mac */

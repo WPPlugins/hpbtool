@@ -1,0 +1,913 @@
+@charset "UTF-8";
+
+/* wp */
+body {
+	min-width:0px;
+}
+
+#hpb_dashboard_body {
+	margin: 0px;
+	padding: 0px 22px 0px 0px;
+}
+
+.indent1 {
+	padding-left:15px;
+}
+
+.indent2 {
+	padding-left:30px;
+}
+
+.label {
+	display: inline-block;
+	box-sizing: border-box;
+	padding-left:15px;
+	padding-right:15px;
+	width: 200px;
+}
+
+.hpb_caption {
+	font-weight:bold;
+	margin: 20px 0 0 5px;
+	paddin: 5px 0px 5px 0px;
+	font-size: 1.17em;
+}
+
+/*title*/
+#hpb_dashboard_title {
+	margin:5px 0px 10px 0px;
+}
+
+#hpb_dashboard_title img {
+	vertical-align: middle;
+	margin-right:10px;
+}
+
+/*update_data*/
+
+.hpb_eyecatch {
+	margin-right:8px;
+}
+
+.hpb_eyecatch_area {
+	border: 1px solid #e6db55;
+	background-color: #ffffe0;
+	padding:7px 10px 7px 10px;
+	margin: 0px 0px 7px 0px;
+}
+
+.hpb_eyecatch_area img {
+	vertical-align:middle;
+}
+
+.hpb_eyecatch_area input, .hpb_eyecatch_area a {
+	margin-left:30px;
+	text-decoration:none;
+}
+
+/*guidance*/
+#hpb_guidance {
+	border:1px solid #dadada;
+	min-width:664px;
+}
+
+#hpb_guidance_image {
+	display:block;
+	background:url("image/admin/guidance.png");
+	width:664px;
+	height:300px;
+	margin:0px auto 30px auto;
+}
+
+#hpb_guidance_step1 {
+	display:block;
+	background:url("image/admin/guidance_step1.png");
+	width:300px;
+	height:70px;
+	margin-right:60px;
+}
+
+#hpb_guidance_step2 {
+	display:block;
+	background:url("image/admin/guidance_step2.png");
+	width:300px;
+	height:70px;
+}
+
+#hpb_guidance_step {
+	background-color:#f8f8f8;
+	border:1px solid #dadada;
+	border-top:none;
+	min-width:664px;
+	margin:0px;
+}
+
+#hpb_guidance_step table {
+	width:664px;
+	padding:15px 0px 15px 0px;
+	margin:0px auto 0px auto;
+}
+
+#hpb_guidance_invisible {
+	display:block;
+	background:url("image/admin/guidance_invisible.png");
+	width:110px;
+	height:23px;
+	margin-left:auto;
+	margin-right:20px;
+}
+
+#hpb_guidance_post {
+	display:block;
+	background:url("image/admin/post_new.png");
+	width:202px;
+	height:43px;
+	margin:10px 0px 5px 50px;
+}
+
+#hpb_guidance_post:hover {
+	background:url("image/admin/post_new_h.png");
+}
+
+#hpb_guidance_post:active {
+	background:url("image/admin/post_new_a.png");
+}
+
+#hpb_guidance_view_site {
+	display:block;
+	background:url("image/admin/view_post.png");
+	width:202px;
+	height:43px;
+	margin:10px 0px 5px 50px;
+}
+
+#hpb_guidance_view_site:hover {
+	background:url("image/admin/view_post_h.png");
+}
+
+#hpb_guidance_view_site:active {
+	background:url("image/admin/view_post_a.png");
+}
+
+/* menu */
+.hpb_content_head {
+	margin:20px 0px 5px 0px;
+}
+
+td.hpb_menu_icon {
+	padding:0px 15px 0px 15px;
+}
+
+td.hpb_first_menu {
+	border-top:4px solid #8ac1e4;
+}
+
+td.hpb_first_menu_contents {
+	width:100%;
+	border-top:4px solid #ececec;
+}
+
+li.hpb_menu_item {
+	float:left;
+	margin:0px 5px 0px 20px;
+}
+
+table.hpb_content_table td {
+	background: url("image/admin/line_dotted.gif") bottom left repeat-x;
+}
+
+table.hpb_content_table ul {
+	float:left;
+}
+
+/* post new */
+
+a.hpb_post_new_btn {
+	display:block;
+	background:url("image/admin/post_new.png");
+	width:202px;
+	height:43px;
+}
+
+a.hpb_post_new_btn:hover {
+	background:url("image/admin/post_new_h.png");
+}
+
+a.hpb_post_new_btn:active {
+	background:url("image/admin/post_new_a.png");
+}
+
+a.hpb_view_post_btn {
+	display:block;
+	background:url("image/admin/view_post.png");
+	width:202px;
+	height:43px;
+}
+
+a.hpb_view_post_btn:hover {
+	background:url("image/admin/view_post_h.png");
+}
+
+a.hpb_view_post_btn:active {
+	background:url("image/admin/view_post_a.png");
+}
+
+a.hpb_view_post_list_btn {
+	display:block;
+	background:url("image/admin/view_post_list.png");
+	width:202px;
+	height:43px;
+}
+
+a.hpb_view_post_list_btn:hover {
+	background:url("image/admin/view_post_list_h.png");
+}
+
+a.hpb_view_post_list_btn:active {
+	background:url("image/admin/view_post_list_a.png");
+}
+
+.hpb_user_define_post {
+	position:relative;
+	bottom:25px;
+	left:12px;
+	color:#67abd9;
+	font-weight:bold;
+	font-family: "sans-serif";
+	font-size: 1.1em;
+	font-
+}
+
+/* check */
+
+#hpb_comment_approval_btn {
+	display:block;
+	background:url("image/admin/comment_approval.png");
+	width:211px;
+	height:51px;
+	text-decoration:none;
+}
+
+#hpb_comment_approval_btn:hover {
+	background:url("image/admin/comment_approval_h.png");
+}
+
+#hpb_comment_approval_btn:active {
+	background:url("image/admin/comment_approval_a.png");
+}
+
+#hpb_comment_approval_btn2 {
+	display:block;
+	background:url("image/admin/comment_approval2.png");
+	width:211px;
+	height:51px;
+	text-decoration:none;
+}
+
+#hpb_comment_approval_btn2:hover {
+	background:url("image/admin/comment_approval2_h.png");
+}
+
+#hpb_comment_approval_btn2:active {
+	background:url("image/admin/comment_approval2_a.png");
+}
+
+#hpb_comment_approval_btn3 {
+	display:block;
+	background:url("image/admin/comment_approval3.png");
+	width:211px;
+	height:51px;
+	text-decoration:none;
+}
+
+#hpb_comment_approval_btn3:hover {
+	background:url("image/admin/comment_approval3_h.png");
+}
+
+#hpb_comment_approval_btn3:active {
+	background:url("image/admin/comment_approval3_a.png");
+}
+
+#hpb_comment_view_btn {
+	display:block;
+	background:url("image/admin/view_comment.png");
+	width:211px;
+	height:51px;
+	text-decoration:none;
+}
+
+#hpb_comment_view_btn:hover {
+	background:url("image/admin/view_comment_h.png");
+}
+
+#hpb_comment_view_btn:active {
+	background:url("image/admin/view_comment_a.png");
+}
+
+#hpb_comment_view_btn2 {
+	display:block;
+	background:url("image/admin/view_comment2.png");
+	width:211px;
+	height:51px;
+	text-decoration:none;
+}
+
+#hpb_comment_view_btn2:hover {
+	background:url("image/admin/view_comment2_h.png");
+}
+
+#hpb_comment_view_btn2:active {
+	background:url("image/admin/view_comment2_a.png");
+}
+
+#hpb_comment_view_btn3 {
+	display:block;
+	background:url("image/admin/view_comment3.png");
+	width:211px;
+	height:51px;
+	text-decoration:none;
+}
+
+#hpb_comment_view_btn3:hover {
+	background:url("image/admin/view_comment3_h.png");
+}
+
+#hpb_comment_view_btn3:active {
+	background:url("image/admin/view_comment3_a.png");
+}
+
+#hpb_aa_check_btn {
+	display:block;
+	background:url("image/admin/aa.png");
+	width:202px;
+	height:43px;
+	text-decoration:none;
+}
+
+#hpb_aa_check_btn:hover {
+	background:url("image/admin/aa_h.png");
+}
+
+#hpb_aa_check_btn:active {
+	background:url("image/admin/aa_a.png");
+}
+
+span.hpb_comment_count {
+	position:relative;
+	top:6px;
+	left:195px;
+	color:#ffffff;
+}
+
+.displaynone {
+	display:none;
+}
+
+/* settings */
+
+#hpb_socialbutton_settings {
+	display:block;
+	background:url("image/admin/socialbutton_settings.png");
+	width:164px;
+	height:24px;
+}
+
+#hpb_socialbutton_settings:hover {
+	background:url("image/admin/socialbutton_settings_h.png");
+}
+
+#hpb_form_settings {
+	display:block;
+	background:url("image/admin/form_settings.png");
+	width:164px;
+	height:24px;
+}
+
+#hpb_form_settings:hover {
+	background:url("image/admin/form_settings_h.png");
+}
+
+#hpb_aa_settings {
+	display:block;
+	background:url("image/admin/aa_settings.png");
+	width:164px;
+	height:24px;
+}
+
+#hpb_aa_settings:hover {
+	background:url("image/admin/aa_settings_h.png");
+}
+
+#hpb_layout_settings {
+	display:block;
+	background:url("image/admin/layout_settings.png");
+	width:164px;
+	height:24px;
+}
+
+#hpb_layout_settings:hover {
+	background:url("image/admin/layout_settings_h.png");
+}
+
+#hpb_option_settings {
+	display:block;
+	background:url("image/admin/option_settings.png");
+	width:164px;
+	height:24px;
+}
+
+#hpb_option_settings:hover {
+	background:url("image/admin/option_settings_h.png");
+}
+
+#hpb_help {
+	display:block;
+	background:url("image/admin/help.png");
+	width:164px;
+	height:24px;
+}
+
+#hpb_help:hover {
+	background:url("image/admin/help_h.png");
+}
+
+#hpb_faq {
+	display:block;
+	background:url("image/admin/faq.png");
+	width:164px;
+	height:24px;
+}
+
+#hpb_faq:hover {
+	background:url("image/admin/faq_h.png");
+}
+
+.hpb_option_menu_item {
+	padding: 5px 15px 5px 15px;
+	float:left;
+}
+
+ul.hpb_option_settings_category {
+	width:600px;
+}
+
+#version_info {
+	margin-top:25px;
+	float:right;
+}
+
+.hpb_clearboth {
+	clear: both;
+}
+
+@media only screen and (max-width:768px) {
+
+#footer-left {
+	display:none;
+}
+
+#hpb_dashboard_title h2 {
+	font-size:20px;
+}
+
+/* update data */
+#hpb_update_data {
+}
+
+
+/*guidance*/
+#hpb_guidance {
+	min-width:208px;
+}
+
+#hpb_guidance_image {
+	display:block;
+	background:url("image/admin/sp/guidance.png");
+	width:208px;
+	height:116px;
+	margin:0px auto 30px auto;
+}
+
+#hpb_guidance_step1 {
+	display:block;
+	background:url("image/admin/sp/guidance_step1.png");
+	width:153px;
+	height:13px;
+	margin:0px auto 0px auto;
+}
+
+#hpb_guidance_step2 {
+	display:none;
+}
+
+#hpb_guidance_step {
+	background-color:#f8f8f8;
+	border:1px solid #dadada;
+	border-top:none;
+	min-width:208px;
+	margin:0px;
+}
+
+#hpb_guidance_step table {
+	width:208px;
+	padding:15px 0px 15px 0px;
+	margin:0px auto 0px auto;
+}
+
+#hpb_guidance_invisible {
+	display:block;
+	background:url("image/admin/sp/guidance_invisible.png");
+	width:24px;
+	height:24px;
+	margin:0px 10px 5px auto;
+	position:relative;
+	top:-1px;
+}
+
+#hpb_guidance_post {
+	display:block;
+	background:url("image/admin/sp/post_new.png");
+	width:167px;
+	height:43px;
+	margin: 15px auto 0px auto;
+}
+
+#hpb_guidance_post:hover {
+	background:url("image/admin/sp/post_new_h.png");
+}
+
+#hpb_guidance_post:active {
+	background:url("image/admin/sp/post_new_a.png");
+}
+
+#hpb_guidance_view_site {
+	display:none;
+}
+
+#hpb_guidance_view_site:hover {
+	display:none;
+}
+
+#hpb_guidance_view_site:active {
+	display:none;
+}
+
+/* post new */
+a.hpb_view_post_btn {
+	display:none;
+}
+
+a.hpb_view_post_list_btn {
+	display:none;
+}
+
+a.hpb_post_new_btn {
+	display:block;
+	background:url("image/admin/sp/post_new.png");
+	width:167px;
+	height:43px;
+}
+
+a.hpb_post_new_btn:hover {
+	background:url("image/admin/sp/post_new_h.png");
+}
+
+a.hpb_post_new_btn:active {
+	background:url("image/admin/sp/post_new_a.png");
+}
+
+/* check */
+
+#hpb_comment_approval_btn {
+	display:block;
+	background:url("image/admin/sp/comment_approval.png");
+	width:176px;
+	height:51px;
+	text-decoration:none;
+}
+
+#hpb_comment_approval_btn:hover {
+	background:url("image/admin/sp/comment_approval_h.png");
+}
+
+#hpb_comment_approval_btn:active {
+	background:url("image/admin/sp/comment_approval_a.png");
+}
+
+#hpb_comment_approval_btn2 {
+	display:block;
+	background:url("image/admin/sp/comment_approval2.png");
+	width:176px;
+	height:51px;
+	text-decoration:none;
+}
+
+#hpb_comment_approval_btn2:hover {
+	background:url("image/admin/sp/comment_approval2_h.png");
+}
+
+#hpb_comment_approval_btn2:active {
+	background:url("image/admin/sp/comment_approval2_a.png");
+}
+
+#hpb_comment_approval_btn3 {
+	display:block;
+	background:url("image/admin/sp/comment_approval3.png");
+	width:176px;
+	height:51px;
+	text-decoration:none;
+}
+
+#hpb_comment_approval_btn3:hover {
+	background:url("image/admin/sp/comment_approval3_h.png");
+}
+
+#hpb_comment_approval_btn3:active {
+	background:url("image/admin/sp/comment_approval3_a.png");
+}
+
+#hpb_aa_check_btn {
+	display:block;
+	background:url("image/admin/sp/aa.png");
+	width:167px;
+	height:43px;
+	text-decoration:none;
+}
+
+#hpb_aa_check_btn:hover {
+	background:url("image/admin/sp/aa_h.png");
+}
+
+#hpb_aa_check_btn:active {
+	background:url("image/admin/sp/aa_a.png");
+}
+
+span.hpb_comment_count {
+	position:relative;
+	top:6px;
+	left:160px;
+	color:#ffffff;
+}
+
+#hpb_comment_view_btn {
+	display:none;
+}
+
+#hpb_comment_view_btn2 {
+	display:none;
+}
+
+/* menu */
+td.hpb_menu_icon {
+	padding:0px 5px 0px 5px;	
+}
+
+li.hpb_menu_item {
+	margin:0px 5px 0px 0px;
+}
+
+/* settings */
+ul.hpb_option_settings_category {
+	width:182px;
+}
+
+}
+
+
+
+/* imported list */
+
+.hpb_page_title {
+	min-width:230px;
+	padding: 12px 12px 12px 12px;
+}
+
+.hpb_page_title a {
+	text-decoration:none;
+}
+
+#hpb_import_list {
+	color:#333;
+	font-family: sans-serif;
+	padding:0px;
+	border-radius: 3px;
+	border: 1px solid #dfdfdf;
+	border-spacing:0px;
+}
+
+#hpb_import_list th {
+	text-align:left;
+	padding: 7px 12px 7px 12px;
+	font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+	text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
+	font-weight: normal;
+	background-color: #F1F1F1;
+	background-image: -ms-linear-gradient(top,#F9F9F9,#ECECEC);
+	background-image: -moz-linear-gradient(top,#F9F9F9,#ECECEC);
+	background-image: -o-linear-gradient(top,#F9F9F9,#ECECEC);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#F9F9F9),to(#ECECEC));
+	background-image: -webkit-linear-gradient(top,#F9F9F9,#ECECEC);
+	background-image: linear-gradient(top,#F9F9F9,#ECECEC);
+}
+
+.hpb_table_footer th {
+	border-top:1px solid #e3e3e3;
+}
+
+#hpb_import_list tr td {
+	background-color:#fcfcfc;
+	border-top:1px solid #e3e3e3;
+}
+
+#hpb_import_list tr:nth-child(even) td {
+	background-color:#f9f9f9;
+}
+
+.hpb_status_button {
+	min-width:270px;
+	padding: 0px 0px 0px 5px;  
+}
+
+.hpb_status_button li, .hpb_status_button ul {
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+
+#hpb_import_list label input {
+	display:none;
+}
+
+#hpb_import_list label.status_add {
+	display:block;
+	width:118px;
+	height:24px;
+	background:url("image/admin/status_add.png");
+}
+
+#hpb_import_list label.status_add:hover {
+	background:url("image/admin/status_add_h.png");
+}
+
+#hpb_import_list label.status_add.selected {
+	background:url("image/admin/status_add_s.png");
+}
+
+#hpb_import_list label.status_keep {
+	display:block;
+	width:118px;
+	height:24px;
+	background:url("image/admin/status_keep.png");
+}
+
+#hpb_import_list label.status_keep:hover {
+	background:url("image/admin/status_keep_h.png");
+}
+
+#hpb_import_list label.status_keep.selected {
+	background:url("image/admin/status_keep_s.png");
+}
+
+#hpb_import_list label.status_update {
+	display:block;
+	width:118px;
+	height:24px;
+	background:url("image/admin/status_update.png");
+}
+
+#hpb_import_list label.status_update:hover {
+	background:url("image/admin/status_update_h.png");
+}
+
+#hpb_import_list label.status_update.selected {
+	background:url("image/admin/status_update_s.png");
+}
+
+#hpb_import_list label.status_trash {
+	display:block;
+	width:118px;
+	height:24px;
+	background:url("image/admin/status_trash.png");
+}
+
+#hpb_import_list label.status_trash:hover {
+	background:url("image/admin/status_trash_h.png");
+}
+
+#hpb_import_list label.status_trash.selected {
+	background:url("image/admin/status_trash_s.png");
+}
+
+#hpb_update_custom_menu_field {
+	margin:6px 0px 10px 0px;
+}
+
+#hpb_update_custom_menu {
+	margin:0px;
+	paddiing:0px;
+}
+
+/* option page */
+
+#hpb_visible_settings {
+	margin-bottom:20px;
+}
+
+#hpb_visible_settings input {
+	margin-right:5px;
+}
+
+#hpb_visible_settings div {
+	margin:5px 0px 5px 0px;
+}
+
+/* aa page */
+
+#hpb_aa_service_start {
+	padding:15px 0px 15px 0px;
+}
+
+#hpb_aa_acount_form {
+	padding-left: 5px;
+}
+#hpb_aa_acount_form label {
+	display: inline-block;
+	width: 100px;
+}
+/* form page */
+
+#hpb_form_mail_address {
+	width:600px;
+}
+
+.hpb_form_editor {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.hpb_form_editor .wp-editor-wrap {
+	display: inline-block;
+	vertical-align: text-top;
+	width:600px;
+}
+
+#hpb_just_account_logo {
+	margin: 5px 0px 5px 0px;
+}
+
+/* annotation */
+
+.annotation {
+	color: #0000ff;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+#hpb_menu_customize, #hpb_menu_customize_title, #hpb_menu_customize_option, #hpb_private_customize {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+#hpb_menu_customize:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#hpb_menu_customize_title {
+	float: left;
+	width: 150px;
+}
+
+#hpb_menu_customize_option {
+	float: left;
+	width: 400px;
+}
+
+@media (max-width: 768px) {
+
+.label {
+	padding:0;
+	width: 100%
+}
+
+#hpb_form_mail_address, .hpb_form_editor .wp-editor-wrap {
+	width: 100%;
+}
+
+#hpb_aa_acount_form input {
+	width: 100%;
+}
+
+#hpb_menu_customize_option, #hpb_menu_customize_title {
+	width: 100%;
+}
+
+.hpb_page_title, .hpb_status_button {
+	min-width:0;
+}
+
+.hpb_status_button {
+	padding: 5px 0;
+}
+
+}
